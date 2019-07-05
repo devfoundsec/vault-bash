@@ -1,4 +1,5 @@
 red='\e[91m'
+dim='\e[2m'
 and='\e[0m'
 _classify(){
   if [ "$(git branch 2> /dev/null)" ]
@@ -19,7 +20,7 @@ export note="$red$(_classify)$and"
 export note_color="$red"
 
 export PS1='''\
-┌─$(_classify)─[\A]
+┌─$(printf $dim)$(_classify)$(printf $and)─[\A]
 ├─[\u@\h]─{$(printf $note_color)\W$(printf $and)}
 └─► '''
 
