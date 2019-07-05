@@ -4,7 +4,7 @@ and='\e[0m'
 _classify(){
   if [ "$(git branch 2> /dev/null)" ]
   then
-    printf "$(__git_ps1)"
+    printf $(__git_ps1 " (%s)")
   elif [ -e ./make* ]
   then
     printf '[Makefile]'
