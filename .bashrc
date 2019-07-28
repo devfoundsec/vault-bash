@@ -24,6 +24,6 @@ _note_color (){
 }
 
 export PS1='''\
-$(_note_color)$(printf $green)─|$(printf "$and$dim")$(_classify)$(printf "$and$green")]─[$(printf $and)\A]
-$(printf $green)├─[$(printf $and)\u@\h$(printf $green)]─{$(printf "$and$red")\W$(printf $and)}
+$(_note_color)$(printf $green)─[$(printf "$and$dim")$(_classify)$(printf "$and$green")]─[$(printf $and)\A]
+$(printf $green)├─[$(printf $and)\u@\h$(printf $green)]─{$(printf "$and$red")\w$(printf $and)}
 $(printf $green)└─►$(printf $and) '''
