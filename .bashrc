@@ -13,39 +13,20 @@ and='\e[0m'
 
 # Arts
 banner='''
-ooooooooooooooossssssssssssssssssssssssssssssssssssssssssssssooooooooooooooooo
-ooooooooooooooooNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmsooooooooooooooooo
-oooooooooooooooooNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmsoooooooooooooooooo
-ooooooooooooooooooNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmsooooooooooooooooooo
-oooooooooooooooooooNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmsoooooooooooooooooooo
-ooooooooooooooooooooNMMMMMMMMMMMmyymmyyNdyyMMMMMMMMMMMMmsooooooooooooooooooooo
-oooooooooooooooooooooNMMMMMMMMMMmyymmyyNdyyMMMMMMMMMMMmooooooooooooooooooooooo
-ooooooooooooooooooooooNMMMMMMMMMmyymmysNdysMMMMMMMMMMmoooooooooooooooooooooooo
-oooooooooooooooooooooooNMMMMMMMMmhymmhyNmhyMMMMMMMMMmooooooooooooooooooooooooo
-ooooooooooooooooooooooooNMMMMMMMmysmdysNdysMMMMMMMMmsooooooooooooooooooooooooo
-oooooooooooooooooooooooooNMMMMMMmhhmmhyNmhyMMMMMMMmsoooooooooooooooooooooooooo
-ooooooooooooooooooooooooooNMMMMMMMMMdssNMMMMMMMMMmoooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooNMMMMMMMMmhhNMMMMMMMMmsoooooooooooooooooooooooooooo
-ooooooooooooooooooooooooooooNMMMMMMMMMMMMMMMMMMmoooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooNMMMMMMMMMMMMMMMMmooooooooooooooooooooooooooooooo
-ooooooooooooooooooooooooooooooNMMMMMMMMMMMMMMmoooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooNMMMMMMMMMMMMmooooooooooooooooooooooooooooooooo
-ooooooooooooooooooooooooooooooooNMMMMMMMMMMmoooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooNMMMMMMMMmooooooooooooooooooooooooooooooooooo
-ooooooooooooooooooooooooooooooooooNMMMMMMmoooooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooooNMMMMdooooooooooooooooooooooooooooooooooooo
-ooooooooooooooooooooooooooooooooooooNMMdoooooooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooooooNdooooooooooooooooooooooooooooooooooooooo
-|||%%%%$*"**/v||||||||||\\~^   V4UL7 SECURITY oooooooooooooooooooooooooooooooo
+	[ V4L7 53CUR17Y ] 
+	[ VALT SECURITY ]
+	[ V4L7 S3CUR1TY ]
 '''
-
+echo ""
 echo "$banner" | while read line
   do
-          printf "$yellow$line$end\r"
-          sleep 0.03
-          echo -e "\e[36m$line$end"
+          echo -en "$yellow\t$line$end\r"
+          sleep 0.3
+          #echo -e "\e[36m$line$end"
   done
-  printf '\e[0m'
+  printf '''\n\e[0m
+    Bash profile for pentest auxilarity
+    See project: github.com/Scorpion-Cyber-Security/vault-bash\n'''
 
 _classify(){
   if [ "$(git branch 2> /dev/null)" ]
