@@ -1,2 +1,2 @@
-# scorpion-bash
+# Vault-bash
 .bashrc intuitive for environment
