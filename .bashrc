@@ -3,6 +3,7 @@ white='\e[38;5;15m'
 red='\e[91m'
 green='\e[92m'
 gray='\e[38;5;239m'
+blue='\e[36m'
 # backgrounds
 bg_lightblue='\e[48;5;32m'
 # formats
@@ -12,59 +13,37 @@ and='\e[0m'
 
 # Arts
 banner='''
-sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssso++/::::----::::/++ossssssssssssssssssssssssssssssss
-sssssssssssssssssssssssssssssssssss+/:---::::::------::::::---:/+ssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssso/--:::-..`.-:/+++oo+++//::----:::--/osssssssssssssssssssss
-sssssssssssssssssssssssssssso/--::-``  `-+ossssssssssssssssoo+:---::--/ossssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssss+--::.`    `:osssssssssssssssssssssssso+:--::--+ssssssssssssssssssssssssssssss
-ssssssssssssssssssssssss/--/-`      -osssssso+/::-:+ssssssssssssssss+:.-/--/ssssssssssssssssssssssssssss
-ssssssssssssssssssssss+--/-        :ssssssssssso+`  `.:osssssssssssssso/.-/-.+ssssssssssssssssssssssssss
-sssssssssssssssssssss:./-         .sssssssss+/:-..     `/+sssso+sssssssss/.-/.:sssssssssssssssssssssssss
-sssssssssssssssssss+.-/`          ossssssssssssss+`     - osss/ssss++ssssso:./-.osssssssssssssssssssssss
-ssssssssssssssssss+`/:           `sssssssssssssssso:.`..-`oss/osss+/ssssssss+`:/`+ssssssssssssssssssssss
-sssssssssssssssss+`/-        ``  .ssssssssssssssssssss/``:os:/ssso-sssssss++oo.-/`+sssssssssssssssssssss
-ssssssssssssssss+`/-     `/++:++:`ssossssssssssssssss+..-://+oooo.osssoo/+ossso.-/`+ssssssssssssssssssss
-ssssssssssssssss`::     `o+-. :ss`/s:-/osssssssssssoo/`.`-------::::/-:+ssssssso`::`ssssssssssssssssssss
-sssssssssssssss:.+      -s+    :/ `os/:`.....:os+/-.-.`.     ...::/::+ssssso++oo/ +.:sssssssssssssssssss
-sssssssssssssso +.      `oo-       `oss+-`    `:: .os-:.`   `. .`-.://-/--/+sssss.-+ ossssssssssssssssss
-ssssssssssssss:`o        /o+`       `/sssssoo///++s:::o:o--.````.` `.-+ssssssssss+ o`:ssssssssssssssssss
-ssssssssssssss.-/        -ss/`        `/ssssssssssssssso/+-//.-` `.``..:ssssssssss /-.ssssssssssssssssss
-ssssssssssssss`/-         :oso           -/osssssssssssssss++//+--.```.-+sssssssss`-/`ssssssssssssssssss
-ssssssssssssss /-          /+oo:.  `.`      `.-:::///+ossssssso+oss+:.`.:sssssssss.-/ ssssssssssssssssss
-ssssssssssssss`/-          -++osoo//-:-..               .:+sssssssssss` `/ssssssss.-/`ssssssssssssssssss
-ssssssssssssss.-/           /+oooooso/+::/.-`              `:osssssssso-` /sssssss /-.ssssssssssssssssss
-ssssssssssssss:`o            -+oossooooo++/./`::: ..--.``    `:sssssssso.`-ssssss+ o`:ssssssssssssssssss
-sssssssssssssso +.      .-//:/--/o+sosoossso+/+`.+s//sssss+/.  .osssssss/ `ssssss..+ ossssssssssssssssss
-sssssssssssssss-.+  ``-.. `` `-/:::/++osssssoo+/++:- `/+oooos/- .ss:/ssss. /ssss+ +.-sssssssssssssssssss
-ssssssssssssssso`/:         -:/-/://+++++++o+o-`.       ````.:+: -s` :so/..ossso`:/`osssssssssssssssssss
-ssssssssssssssss+`+-     `-:```  `+...`---/+oo.                .  o:.-/..-ossss.-+`+ssssssssssssssssssss
-sssssssssssssssss/`+.  `.-`      /.   -:``:so/                    ossoosssssso.-+`/sssssssssssssssssssss
-ssssssssssssssssss/`/-          --   .:  .o+++++-`                osssssssss+.-/`/ssssssssssssssssssssss
-sssssssssssssssssss+.:/`       ..    :`  .s+ssssso.              `sssssssss:./:.+sssssssssssssssssssssss
-sssssssssssssssssssso-./-      `    ..    -:sssssso+/:-.         +sssssss+.-/.-ossssssssssssssssssssssss
-ssssssssssssssssssssss+.-/.         `      `./oosss-.``         :ssssss+--/-.+ssssssssssssssssssssssssss
-ssssssssssssssssssssssss/.-/-`                 `-/+:::-`      `/sssso/.-/-./ssssssssssssssssssssssssssss
-ssssssssssssssssssssssssss/--::.`                           `:osso/--::--/ssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssss+:--::.`                     `.:++/:--::--:+ssssssssssssssssssssssssssssssss
-sssssssssssssssssssssssssssssss+:--:::-.``             `.-----:::--:+sssssssssssssssssssssssssssssssssss
-sssssssssssssssssssssssssssssssssso+/---::::::--------::::::---/+ossssssssssssssssssssssssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssoo+/::----------::/+oosssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-
-███████╗ ██████╗ ██████╗ ██████╗ ██████╗  ██╗ ██████╗ ███╗   ██╗    ████████╗██████╗ ██╗  ██╗███╗   ███╗
-██╔════╝██╔════╝██╔═████╗██╔══██╗██╔══██╗███║██╔═████╗████╗  ██║    ╚══██╔══╝╚════██╗██║  ██║████╗ ████║
-███████╗██║     ██║██╔██║██████╔╝██████╔╝╚██║██║██╔██║██╔██╗ ██║       ██║    █████╔╝███████║██╔████╔██║
-╚════██║██║     ████╔╝██║██╔══██╗██╔═══╝  ██║████╔╝██║██║╚██╗██║       ██║    ╚═══██╗╚════██║██║╚██╔╝██║
-███████║╚██████╗╚██████╔╝██║  ██║██║      ██║╚██████╔╝██║ ╚████║       ██║   ██████╔╝     ██║██║ ╚═╝ ██║
-╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝      ╚═╝ ╚═════╝ ╚═╝  ╚═══╝       ╚═╝   ╚═════╝      ╚═╝╚═╝     ╚═╝
+ooooooooooooooossssssssssssssssssssssssssssssssssssssssssssssooooooooooooooooo
+ooooooooooooooooNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmsooooooooooooooooo
+oooooooooooooooooNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmsoooooooooooooooooo
+ooooooooooooooooooNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmsooooooooooooooooooo
+oooooooooooooooooooNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmsoooooooooooooooooooo
+ooooooooooooooooooooNMMMMMMMMMMMmyymmyyNdyyMMMMMMMMMMMMmsooooooooooooooooooooo
+oooooooooooooooooooooNMMMMMMMMMMmyymmyyNdyyMMMMMMMMMMMmooooooooooooooooooooooo
+ooooooooooooooooooooooNMMMMMMMMMmyymmysNdysMMMMMMMMMMmoooooooooooooooooooooooo
+oooooooooooooooooooooooNMMMMMMMMmhymmhyNmhyMMMMMMMMMmooooooooooooooooooooooooo
+ooooooooooooooooooooooooNMMMMMMMmysmdysNdysMMMMMMMMmsooooooooooooooooooooooooo
+oooooooooooooooooooooooooNMMMMMMmhhmmhyNmhyMMMMMMMmsoooooooooooooooooooooooooo
+ooooooooooooooooooooooooooNMMMMMMMMMdssNMMMMMMMMMmoooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooNMMMMMMMMmhhNMMMMMMMMmsoooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooNMMMMMMMMMMMMMMMMMMmoooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooNMMMMMMMMMMMMMMMMmooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooNMMMMMMMMMMMMMMmoooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooNMMMMMMMMMMMMmooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooNMMMMMMMMMMmoooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooNMMMMMMMMmooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooNMMMMMMmoooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooNMMMMdooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooNMMdoooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooNdooooooooooooooooooooooooooooooooooooooo
+|||%%%%$*"**/v||||||||||\\~^   V4UL7 SECURITY oooooooooooooooooooooooooooooooo
 '''
 
 echo "$banner" | while read line
   do
           printf "$yellow$line$end\r"
-          sleep 0.01
-          echo -e "\e[38;5;202;1m$line$end"
+          sleep 0.03
+          echo -e "\e[36m$line$end"
   done
   printf '\e[0m'
 
