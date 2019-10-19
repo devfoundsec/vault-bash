@@ -90,3 +90,4 @@ export PS1='''\
 $(_note_color)
 $(printf $green)├─[$(printf $and)\u@\h$(printf $green)]─{$(printf "$and$red")\w$(printf "$and$green")}$(printf $and)
 $(printf $green)└─➤$(printf $and) '''
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/usr/local/games:/usr/games:/usr/lib/jvm/java-12-oracle/bin:/usr/lib/jvm/java-12-oracle/db/bin
