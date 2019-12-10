@@ -13,7 +13,7 @@ and='\e[0m'
 
 # Arts
 banner='''
-	[ VAULT CYBER SECURITY ]
+	[ - VAULT CYBER SECURITY - ]
 '''
 echo ""
 echo "$banner" | while read line
