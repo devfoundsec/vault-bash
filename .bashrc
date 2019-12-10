@@ -13,9 +13,7 @@ and='\e[0m'
 
 # Arts
 banner='''
-	[ V4L7 53CUR17Y ] 
-	[ VALT SECURITY ]
-	[ V4L7 S3CUR1TY ]
+	[ VAULT CYBER SECURITY ]
 '''
 echo ""
 echo "$banner" | while read line
@@ -26,7 +24,7 @@ echo "$banner" | while read line
   done
   printf '''\n\e[0m
     Bash profile for pentest auxilarity
-    See project: github.com/Scorpion-Cyber-Security/vault-bash\n'''
+    See project: github.com/Vault-Cyber-Security/vault-bash\n'''
 
 _classify(){
   if [ "$(git branch 2> /dev/null)" ]
